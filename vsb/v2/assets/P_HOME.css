@@ -1,0 +1,1211 @@
+#vacationFinder {
+	float: right !important;
+	width: 202px;
+	height: 268px;
+	padding: 15px;
+	text-align: left;
+	font-size: 13px;	
+	color: #363635;
+	margin: 0 !important;
+}
+#vacationFinder .opacityDivLeftOrRight {
+	background: none #FFFFFF repeat-x top left;
+	opacity: 0.95;
+	filter: alpha(opacity=95);
+	border: 1px solid transparent;
+	display: block;
+	height: 100%;
+	top: 0;
+	left: 0;
+	width: 230px;
+	position: absolute;
+	padding-top: 0 !important;
+	padding-right: 0 !important;
+	padding-left: 0 !important;
+	padding-bottom: 0 !important;
+}
+#vacationFinder .opacityDiv {
+	background: none #FFFFFF repeat-x top left;
+	opacity: 0.95;
+	filter: alpha(opacity=95);
+	border: 1px solid transparent;
+	position: absolute;
+	display: block;
+	height: 100%;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+#vacationFinder.first {
+	float: left !important;
+}
+#vacationFinder a.opt {
+	clear: both;
+	float: left;
+}
+#vacationFinder a.opt.lnk, #vacationFinder a.opt.lnk:visited, #vacationFinder a.opt.lnk:hover {
+	float: left;
+	margin: 10px 0 5px 0;
+	text-decoration: underline;
+}
+#vacationFinder a.opt.lnk:hover {
+	text-decoration: none;
+}
+#headingContainer #vacationFinder {
+	margin: 0;
+}  
+#vacationFinder .vacation_finder {
+	float: left;
+	color:#949697;
+	font-family:Roboto;
+	font-size:13px;
+	font-weight:normal;
+	font-style:normal;
+	text-decoration:none;
+	text-transform:none;
+}
+#vacationFinder .dateInput {
+	width: 180px;
+	float: left;
+	display: block;
+	vertical-align: middle;
+	margin: 4px 0 0 0;
+}
+#vacationFinder .dateInput input, #vacationFinder .dest input {
+    display: block;
+    font-size: 12px;
+    padding: 3px;
+    height: 20px;
+    margin: 5px 0 0;    
+    width: 243px;   
+    border: 1px solid #cecdc9;		
+	font-weight: normal;
+	width: 135px;
+	margin: 0;
+	font-size: 14px;
+	display: block;
+	float: left;
+	color: #75746b;
+	position: relative;
+}
+#vacationFinder div.box2 select[name="destination"] {
+	width: 176px;
+	font-size: 12px;
+	float: left;
+	color: #636563;
+}
+#vacationFinder div.box2 select[name="resort_id"] {
+	width: 176px;
+	font-size: 12px;
+	float: left;
+	color: #636563;
+}
+#vacationFinder .dateInput .calbtn {
+	cursor: pointer;
+	width: 25px;
+	height: 26px;
+	display: block;
+	float: right;
+	margin: 2px 2px 0 0;
+}
+#vacationFinder div.box1 {
+	float: left;
+	width: 44px;
+	margin: 4px 20px 0 0;
+}
+#vacationFinder div.box label, #vacationFinder div.box1 label, #vacationFinder div.box2 label {
+	display: block;
+	float: left;
+	clear: both;
+	margin: 4px 0 0 0;
+} 
+#vacationFinder div.box1 select, #vacationFinder div.box2 select {
+    display: block;
+    font-size: 12px;
+    padding: 3px;
+    margin: 0;    
+    border: 1px solid #cecdc9;		
+	font-weight: normal;
+	width: 58px;
+	font-size: 14px;
+	color: #75746b;
+	float: left;
+}
+#vacationFinder .blueLinkImg {
+	float:right;
+}
+#vacationFinder .single .blueLinkImg {
+	margin:20px 0 0 0;
+}
+#vacationFinder .multi .blueLinkImg {
+	margin:8px 0 0 0;
+}
+#vacationFinder a.blueLinkImg span {
+	margin: 0 6px 0 0;
+}
+#vacationFinder a.btn, #vacationFinder a.btn:visited, #vacationFinder a.btn:hover {
+	float: left;
+	margin: 4px 0;
+}
+#vacationFinder a.btn.opt, #vacationFinder a.btn.opt:visited {
+	background-image: none !important;
+	color:#FFFFFF!important;
+	background-color: #758098!important;
+}
+#vacationFinder a.btn.opt:hover {
+	background-image: none !important;
+	color:#FFFFFF!important;
+	background-color: #545B6D!important;
+}
+body.touch-enabled #vacationFinder .single a.btn.search, body.touch-enabled #vacationFinder .single a.btn.search:visited, body.touch-enabled #vacationFinder .single a.btn.search:hover {
+	margin: 23px 0 0 0 !important;
+	height: 31px;
+	line-height: 20px;
+}
+#vacationFinder .single a.btn.search, #vacationFinder .single a.btn.search:visited, #vacationFinder .single a.btn.search:hover {
+	margin: 23px 0 0 0 !important;
+}
+#vacationFinder .multi a.btn.search, #vacationFinder .multi a.btn.search:visited, #vacationFinder .multi a.btn.search:hover {
+	margin: 9px 0 0 0 !important;
+}
+#vacationFinder .yui-ac-container {
+	position:relative;
+}
+#vacationFinder .googleDestMapHolder {
+	width: 0;
+	height: 288px;
+	overflow: hidden;
+	z-index: 2;
+	position: absolute;
+	top: 150px;
+	left: 169px;
+}
+#openMapBtn {
+	display: block;
+}
+#closeMapBtn {
+	display: none;
+}
+#vacationFinderOptions {
+	padding:10px;
+	margin:0;
+	font-size: 10px;
+	font-style: italic;
+	color: #363635;
+	text-align: left;
+	height: 70px;	
+	background: none #e4e3de no-repeat;
+	z-index: 1!important;
+}
+#vacationFinderOptions .close-btn {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	cursor:pointer;
+	display:block;
+	height: 10px;
+	width: 10px;
+}
+#vacationFinderOptions td {
+	padding: 5px;
+}
+#vacationFinderOptions td.lbl {
+	font-style: normal;
+	font-size: 12px;
+}
+#vacationFinderOptions select {
+    display: block;
+    font-size: 12px;
+	padding: 3px;
+    margin: 5px 0 0;    
+    border: 1px solid #cecdc9;		
+	font-weight: normal;
+	font-size: 12px;
+	font-style: normal;
+	color: #75746b;
+}
+#vacationFinderAmenitiesMask {
+	background-color: #ffffff;
+	opacity:0.01;
+	filter:alpha(opacity=1);
+	width: 102px;
+	height:18px;
+}
+#vacationFinderAmenitiesSelect {
+	width: 100px;
+}
+#filterViewSearch input {
+	display: block;
+    float: left;
+}
+#filterViewSearch label {
+	display: block;
+    float: left;
+    line-height: normal;
+}
+#filterCitiesSearch input {
+	display: block;
+    float: left;
+}
+#filterCitiesSearch label {
+	display: block;
+    float: left;
+    line-height: normal;
+}
+#vacationFinderAmenities {
+	background-color: #ffffff;
+	border:1px solid #CCCCCC;
+}
+#vacationFinderAmenities td {
+	margin: 0;
+	padding: 5px;
+	text-align: left;
+	vertical-align: top;
+}
+#vacationFinderAmenities input {
+	float: left;
+	margin: 1px 5px 0 0;
+}
+#vacationFinderAmenities label {
+	float: left;
+	font-style: normal;
+	font-size: 12px;
+	color: #666666;
+	margin: 0;
+	width: 120px;
+	line-height:14px;
+}
+#vacationFinder ul li {
+	list-style: none outside none !important;
+	margin: 0 !important;
+	height: 17px;
+	font-size: 11px;
+}
+#vacationFinder.wide {
+	position: absolute;
+	float: left!important;
+	bottom: 0;
+	width: 909px;
+	height: 73px; 
+	/*border: 1px solid transparent;*/
+}
+#vacationFinder.wide .vacation_finder {
+	width: 100%;
+	margin: 0 0 5px 0;
+}
+#vacationFinder .vacation_finder_box {
+	float: left;
+	width: 610px;
+	position: relative;
+}
+#vacationFinder .receive_specials_box {
+	float: right;
+	width: 288px;
+	position: relative;
+}
+#vacationFinder.wide .box {
+	float:left;
+	margin: 0 6px 0 0;
+	display: block;
+}
+#vacationFinder.wide .single .box {
+	margin: 0 10px 0 0;
+}
+#vacationFinder.wide .dest {
+	width: 150px;
+}
+#vacationFinder.wide div.box select[name="destination"] {
+	font-size: 14px;
+	color: #636563;
+	width: 148px;
+	float: left;
+}
+#vacationFinder.wide div.box select[name="resort_id"] {
+	font-size: 14px;
+	color: #636563;
+	width: 148px;
+	float: left;
+}
+#vacationFinder.wide .dest input {
+	width: 143px;
+	height: 19px;
+}
+#vacationFinder.wide .dateInput {
+	width: 123px;
+}
+#vacationFinder.wide .dateInput input {
+	width: 87px;
+	height: 19px;
+}
+#vacationFinder.wide .dateInput .calbtn {
+	margin: 0 0 0 0;
+}
+#vacationFinder.wide div.box1 {
+	width: 53px; 
+}
+#vacationFinder.wide div.box1 select {
+	width: 53px; 
+}
+#vacationFinder.wide .single div.box1 {
+	width: 75px; 
+}
+#vacationFinder.wide .single div.box1 select {
+	width: 75px; 
+}
+#vacationFinder.wide .vacation_finder {
+	font-size: 18px;	
+}
+#vacationFinder.wide .vacation_finder .editable_html {
+	min-height: 0;
+}
+#vacationFinder.wide div.box3 {
+	width: 70px;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+#vacationFinder.wide a.lnk, #vacationFinder.wide a.lnk:visited, #vacationFinder.wide a.lnk:hover {
+	float: left;
+	text-align: left;
+	font-size: 13px;	
+	color: #363635;
+	text-decoration: underline;
+	margin: 0 0 15px 5px;
+}
+#vacationFinder.wide a.lnk:hover {
+	text-decoration: none;
+}
+#vacationFinder.wide .receive_specials_box input {
+	float: left;
+    display: block;
+    font-size: 12px;
+    padding: 3px;
+    height: 20px;
+    margin: 5px 0 0;    
+    width: 243px;   
+    border: 1px solid #cecdc9;		
+	font-weight: normal;
+	width: 210px;
+	margin: 0;
+	font-size: 14px;
+	display: block;
+	float: left;
+	color: #75746b;
+}
+body.touch-enabled #vacationFinder.wide .vacation_finder_box a.btn, body.touch-enabled #vacationFinder.wide .vacation_finder_box a.btn:visited, body.touch-enabled #vacationFinder.wide .vacation_finder_box a.btn:hover {
+	margin: 0 0 0 0!important;
+	height: 31px;
+	line-height: 16px;
+}
+#vacationFinder.wide .vacation_finder_box a.btn, #vacationFinder.wide .vacation_finder_box a.btn:visited, #vacationFinder.wide .vacation_finder_box a.btn:hover {
+	margin: 0 0 0 0!important;
+}
+body.touch-enabled #vacationFinder.wide .receive_specials_box a.btn, body.touch-enabled #vacationFinder.wide .receive_specials_box a.btn:visited, body.touch-enabled #vacationFinder.wide .receive_specials_box a.btn:hover {
+	float:right;
+	margin: 0 0 0 0;
+	height: 31px;
+	line-height: 17px;
+}
+#vacationFinder.wide .receive_specials_box a.btn, #vacationFinder.wide .receive_specials_box a.btn:visited, #vacationFinder.wide .receive_specials_box a.btn:hover {
+	float:right;
+	margin: 0 0 0 0;
+}
+#vacationFinder.wide .box label {
+	margin: 0 0 2px 0;
+}
+#opacityBackGroundDiv {
+	position: absolute;
+	width: "";
+}
+#vacationFinder.wide #vacationFinderOptions {
+	width: 610px;
+}
+#vacationFinder div.num-nights-select{
+	width: 147px !important;
+	clear: both;
+	display: block;
+}
+#vacationFinder div.num-nights-select + div.box1{
+	/*clear: left !important;*/
+}
+#vacationFinder div.num-nights-select > select{
+	clear: left;
+}
+#vacationFinder.wide div.num-nights-select {
+	clear: none;
+	display: inline;
+}
+#vacationFinder.wide div.num-nights-select {
+	width: 88px !important;
+}
+#vacationFinder.wide div.num-nights-select > select{
+	width: 86px !important;
+}
+#vacationFinder .editable_txt {
+	min-height: inherit;
+}
+#vacationFinder.wide .receive_specials_box .disclaimer {
+	float: left;
+	font-size: 11px;
+	margin: 2px 0 0 0;	
+}
+
+#leftRailArea {
+	float: left;
+	width: 268px;
+	padding-right: 10px;
+	width: 256px;
+}
+#headingContainer #leftRailArea {
+	width: 244px;
+}
+#leftRail {
+	width: 225px;
+	margin: 0 0 0 20px;
+	padding: 3px 0;
+}
+#leftRail .left_box {
+	font-weight: bold;
+}
+#leftRail .phone {
+	display: block;
+	clear: both;
+	font-weight: bold;
+	font-size: 18px;
+	padding: 3px 0;
+}
+#leftRailArea .signup {
+	float: left;
+	text-align: left;
+	margin: 5px 0 10px 0;
+}
+#leftRailArea .signup label {
+	margin: 0 0 5px 5px;
+	float: left;
+	clear: both;
+}
+.m2box {
+	line-height: normal;
+	font-family:Lustria;
+	font-weight:normal;
+	font-style:normal;
+	text-decoration:none;
+	text-transform:none;
+	font-size: 12px;
+	width: 240px;
+	float: left;
+	padding: 0;
+	margin: 0 0 20px 0;
+	border: 1px solid #000000;
+ 	box-shadow: 0px 2px 2px #DDD;	
+	-moz-box-shadow: 0px 2px 2px #DDD;
+ 	-webkit-box-shadow: 0px 2px 2px #DDD;
+	border-radius: 3px 3px 3px 3px;
+	-moz-border-radius: 3px 3px 3px 3px;
+}
+.m2box .left_box {
+	line-height: normal;
+	font-family:Lustria;
+	font-weight:bold;
+	font-style:normal;
+	text-decoration:none;
+	text-transform:none;
+	font-size: 16px;
+	background: #e4e3de repeat-x top left;
+	color: #363635;
+	float: left;
+	margin: 0;
+	width: 218px;
+	padding: 10px 11px;
+	border-bottom: 1px solid #000000;
+	border-radius: 3px 3px 0 0;
+	-moz-border-radius: 3px 3px 0 0;
+}
+.mainboxw .m2box {
+	color: #75746b;
+	background-color: #EAEAEA; 
+}
+.mainboxw .m2box .left_box {
+	padding: 0;
+	margin: 0 0 4px 0;
+	color: #0F2946;
+	background-color: #EAEAEA; 
+}
+.m2box .m2boxcnt {
+	background: #3399CC repeat-x top left;
+	padding: 12px;
+	width: 216px;
+	float: left;
+	color: #FFFFFF;
+	border-radius: 0 0 3px 3px;
+	-moz-border-radius: 0 0 3px 3px;
+}
+.m2box .m2boxcnt .left_box {
+	background: none;
+	float: none;
+	margin: 0;
+	width: auto;
+	padding: 0;
+	border: none;
+	border-radius: 0;
+	-moz-border-radius: 0;
+}
+.m2box .m2boxcnt2 {
+	background-color: #ffffff;
+	padding: 6px;
+	width: 248px;
+	float:left;
+}
+.m2box .m2boxcnt a, .m2box .m2boxcnt a:visited, .m2box .m2boxcnt a:hover {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+#m2mediaGallery img {
+	width: 68px;
+	height: 68px;
+	float: left;
+	margin: 4px;
+	cursor: pointer;
+}
+#m2mediaGallery .m2boxcnt {
+	padding: 6px;
+	width: 228px;
+}
+#leftRail1.mainbox {
+	width: 225px;
+	margin-top: 25px;
+}
+#leftRail2.mainbox {
+	width: 225px;
+	margin-top: 25px;
+}
+#mediaGallery_c {
+	z-index:3!important;
+}
+#mediaGallery {
+	width: 453px;
+	height: 531px;
+	border:#000000 solid 1px;
+	background-color: #ffffff;
+	color: #75746b;
+	z-index: 47;
+}
+#mediaGallery .header {
+	height: 30px;
+	margin: 0;
+	width: 100%;
+}
+#mediaGallery .header label {
+	position:absolute;
+	right:30px;
+	top:5px;
+	cursor:pointer;
+	white-space: nowrap;
+	color:#6d6d6d;
+	text-transform:none;	
+}
+#mediaGallery .container-close {
+	-moz-background-clip:border;
+	-moz-background-inline-policy:continuous;
+	-moz-background-origin:padding;
+	background:transparent no-repeat scroll 0 -300px;
+	cursor:pointer;
+	height:15px;
+	position:absolute;
+	right:0;
+	top:5px;
+	width:25px;
+}
+#mediaGallery .container-close:active, #mediaGallery .container-close:focus {
+	outline: none;
+}
+#mediaGalleryMenu {
+	display:block;
+	position:absolute;
+	left:0;
+	top:0;
+}
+#mediaGalleryMenu li {
+	float:left;
+	position:relative;
+	padding: 2px 16px 4px 16px;
+	list-style:none;
+	margin:0 10px 0 0;
+	background: transparent repeat-x bottom left;
+	_background-image: none;
+	opacity:0.7;
+	filter:alpha(opacity=70);
+}
+#mediaGalleryMenu li.sel {
+	opacity:1;
+	filter:alpha(opacity=100);
+}
+#mediaGalleryMenu .blc {
+	display:block;
+	position:absolute;
+	width:8px;
+	height:8px;
+	left:0;
+	bottom:0;
+	background: transparent  no-repeat;
+}
+#mediaGalleryMenu .brc {
+	display:block;
+	position:absolute;
+	width:8px;
+	height:8px;
+	right:0;
+	bottom:0;
+	background: transparent no-repeat;
+}
+#mediaGalleryMenu a:active, #mediaGalleryMenu a:focus {
+	outline: none;
+}
+#mediaGalleryMenu a, #mediaGalleryMenu a:visited, #mediaGalleryMenu a:hover {
+	line-height: normal;
+	font-family:Lustria;
+	font-weight:normal;
+	font-style:normal;
+	text-transform:none;
+	font-size:15px;
+	text-decoration:none;
+}
+#mediaGalleryMenu a:hover {
+	color:#758098;
+}
+#mediaGalleryMenu li.sel a, #mediaGalleryMenu li.sel a:visited {
+	color:#758098;
+}
+#mediaGalleryMenu li.sel a:hover {
+	color:#75746b;
+}
+#mediaGallery .frame {
+	width: 427px;
+	height: 511px;
+	top: 0;
+	left: 13px;
+	position: absolute;
+}
+#mediaGalleryImage {
+	width: 100%;
+	height: 260px;
+	margin: 0;
+	padding: 0 0 5px 0;
+	text-align: center;
+	overflow: hidden;
+}
+#mediaGalleryImage img {
+	max-height: 260px;
+	max-width: 427px;
+	/*vertical-align:middle;*/
+}
+#mediaGalleryImage img.nophotos {
+	margin-top:30px;
+}
+#video_player {
+	margin: 0;
+	padding: 0 0 5px 0;
+}
+#mediaGallery .submenu {
+	width: 100%;
+	height: 38px;
+	margin: 5px 0 0 5px;
+}
+#mediaGallery .controls {
+	width: 120px;
+	height: 32px;
+	float: left;
+	padding: 0;
+	margin: 4px 0 0 0;
+}
+#mediaGallery .controls div {
+	width: 32px;
+	height: 32px;
+	float: left;
+	margin: 0;
+	padding: 0;
+	cursor: pointer;
+}
+#mediaGallery .controls div.na {
+	opacity: 0.7;
+	filter: alpha(opacity=70);
+	cursor: auto;
+}
+#mediaGalleryPrev {
+	background: transparent no-repeat scroll -252px -17px;
+}
+#mediaGalleryPlay {
+	background: transparent no-repeat scroll -24px -17px;
+}
+#mediaGalleryPlay.stop {
+	background: transparent no-repeat scroll -70px -17px;
+}
+#mediaGalleryPlay.pause {
+	background: transparent no-repeat scroll -115px -17px;
+}
+#mediaGalleryNext {
+	background: transparent no-repeat scroll -206px -17px;
+}
+#mediaGalleryCaption {
+	font-family:Lustria;
+	font-weight:normal;
+	font-style:normal;
+	text-decoration:none;
+	text-transform:none;
+	font-size: 13px;
+	height: auto;
+	float: left;
+	margin: 0 auto 0 auto;
+	width:100%;
+	padding: 0;
+	height: 35px;
+	line-height: 17px;
+	overflow:hidden;
+	background-position: center;
+	text-align: center;
+	color: #000000;
+}
+#mediaGalleryThumbWrap {
+	clear: both;
+	width: 437px;
+	height: 122px;
+	padding: 0px 5px 0px 5px;
+	overflow: hidden;
+}
+#mediaGalleryThumbWrap .thumb {
+	height: 52px;
+	width: 52px;
+	padding: 0 0 0 0px;
+	background-color: #999999;
+	margin: 9px 9px 0 0;
+	float: left;
+	cursor: pointer;
+	opacity:0.5;
+	filter:alpha(opacity=50);
+}
+#mediaGalleryThumbWrap .sel {
+	opacity:1;
+	filter:alpha(opacity=100);
+}
+#mediaGalleryHint {
+	line-height: normal;
+	font-family:Lustria;
+	font-size:13px;
+	font-weight:normal;
+	font-style:normal;
+	text-decoration:none;
+	text-transform:none;
+	clear: both;
+	height: 26px;
+	padding: 15px 5px 0px 5px;
+	overflow: hidden;
+	text-align: center;
+	color: #6d6d6d;
+}
+#mediaGallery .hidden {
+	display: none;
+}
+
+
+#rightRailArea {
+	float:right;
+	width:168px;
+}
+#rightRail {
+	width: 152px;
+	height: 278px;
+	margin: 3px 0px;
+	padding: 5px;
+	text-align: left;
+	overflow: hidden;
+}
+#rightRail span {
+	display: block;
+}
+#rightRail1 {
+	width: 156px;
+	margin-left: 0px;
+	margin-top: 0px;
+	float: left;
+	padding: 3px;
+}
+#rightRail2 {
+	width: 156px;
+	margin-left: 0px;
+	margin-top: 0px;
+	float: left;
+	padding: 3px;
+}
+
+#rentalResReqDlg_c {
+	top: 0;
+	left: 0;
+	z-index: 5 !important;
+}
+#rentalResReqDlg_c .underlay {
+	-moz-border-radius: 5px; -webkit-border-radius: 5px; border: 0px solid #000000;
+}
+#rentalResReqDlg.yui-panel {
+	width: 600px;
+	height: 450px;
+	-moz-border-radius: 5px; -webkit-border-radius: 5px; border: 1px solid #000000; overflow: visible; background-color: #ffffff;
+}
+#rentalResReqDlg.yui-panel .hd {
+	padding: 0px;
+	background-color: transparent; 
+	height: 30px; 
+	overflow: visible; 
+	font-family:Roboto;
+	font-size:15px;
+	color:#75746b;
+	font-weight:normal;
+	font-style:normal;
+	text-decoration:none;
+	text-transform:uppercase;
+	line-height: 30px; 
+	padding-left: 10px;
+	border: none;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 5px;
+	-webkit-border-radius-topleft: 5px;
+	-webkit-border-radius-topright: 5px;
+}
+.yui-content .yui-hidden {
+	position:absolute;
+	left:-999999px;
+	visibility:hidden;
+}
+#rentalResReqDlg .stacksheet {
+	width: 100%;
+	height: 400px;
+	text-align: left;
+}
+#rentalResReqDlg .sendresreq {
+	margin-right: 170px;
+}
+#rentalResReqDlg .cancelresreq {
+	margin-right: 15px;
+}
+#rentalResReqDlg .t1 td {
+	vertical-align: top;
+	padding-top: 10px;
+}
+#rentalResReqDlg .t1 td label {
+	display: block;
+	margin-left: 15px;
+}
+#rentalResReqDlg .t1 td input {
+	width: 85%;
+	margin:4px 0 0 15px;
+	float: left;
+	clear:both;
+}
+#rentalResReqDlg .t1 td input.email {
+	width: 93%;
+}
+#rentalResReqDlg .t1 td select {
+	margin:4px 0 0 15px;
+	float: left;
+	clear:both;
+	width: 114px;
+}
+#rentalResReqDlg .t1 td textarea {
+	margin-left: 15px;
+	float: left;
+	clear:both;
+}
+#rentalResReqDlg .t2 {
+	height: 283px;
+	width: 100%;
+}
+#rentalResReqDlg .rr3r {
+	float: left;
+	clear:both;
+	padding-top: 20px;
+	text-align: left;
+}
+#rentalResReqDlg .rr3c {
+	float: left;
+	width: 50%;
+}
+#rentalResReqDlg .rr3r label {
+	padding-left:15px;
+}
+#rentalResReqDlg .rr3r input {
+	float: left;
+	margin-left:15px;
+	width: 135px;
+}
+#rentalResReqDlg .rr3r select {
+	float: left;
+	margin-left:15px;
+}
+#rentalResReqDlg .rr3r textarea {
+	float: left;
+	margin-left:15px;
+}
+#rentalResReqDlg .rrdet {
+	float: left;
+	margin:0 15px 0;
+	border:#000000 solid 2px;
+	padding: 10px 0;
+}
+#rentalResReqDlg .rrdet .res_request_popup_1 {
+	line-height: normal;
+	font-family:Lustria;
+	font-style:normal;
+	text-decoration:none;
+	text-transform:none;
+	font-size:12px;
+	float:left;
+	padding:2px 5px;
+	color:#000000;
+	text-align:left;
+	width:95%;
+	font-weight: bold;
+}
+#rentalResReqDlg .rrdet .res_request_popup_2 {
+	line-height: normal;
+	font-family:Lustria;
+	font-size:13px;
+	font-weight:normal;
+	font-style:normal;
+	text-decoration:none;
+	text-transform:none;
+	float:left;
+	padding:2px 5px;
+	color:#000000;
+	text-align:left;
+	width:94%;
+}
+#rentalResReqDlg .rrdet .clear {
+	clear:none !important;
+}
+#rentalResReqDlg .rrdet .clear_margin {
+	clear:none;
+	margin:0;
+}
+#rentalResReqDlg .rrdet .row {
+	margin: 3px 0;
+	text-align: left;
+	height: auto;
+	float: left;
+	width: 100%;
+	font-size: 11px;
+	clear:both;
+}
+#rentalResReqDlg .rrdet .row div.label {
+	width: 65px;
+	height: 15px;
+	text-align: right;
+	margin:0 5px;
+	float:left;
+} 
+#resReqConf .rr3r {
+	margin: 15px 0 20px 15px;
+	padding-top: 0;
+	width: 345px;
+}
+#resReqConf .rr3rr {
+	margin: 15px 0 20px 15px;
+	padding-top: 0;
+	float: left;
+}
+#resReqConf .t1 input {
+	margin-top: 5px;
+	width: 200px;
+}
+#rentalResReqDlg .container-close {
+	top: 9px; 
+	right:11px; 
+	height: 12px; 
+	width: 12px; 
+	cursor:pointer;
+}
+#rentalResReqDlg .rrinfo {
+	width: 200px;
+	padding-top: 10px;
+}
+#resReqConf .res_request_popup_3 {
+	font-size:14px;
+	margin:0 0 19px 15px;
+	margin-left:15px;
+}
+div.errordiv {
+	float:left;
+	padding: 10px 0 0 0;
+}
+.req-mark {
+	color: rgb(182, 12, 12);
+	font-size: 16px;
+	line-height: 16px;
+}
+#rentalResReqDlg .t1 td label {
+	float: left;
+	max-width: 83%;
+}
+
+#headingContainer {
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+.yui-ga #headingContainer {
+}
+.yui-ga .largeInsideHeading {
+	height: 418px;
+	width: 0;
+	padding: 0 !important;
+	margin: 0 !important;
+}
+.yui-ga .smallInsideHeading {
+	height: 100px; 
+	width: 0;
+	padding: 0 !important;
+	margin: 0 !important;
+}
+.yui-gc #headingContainer {
+}
+.yui-gc .largeInsideHeading {
+	height: 300px;
+	width: 0;
+	padding: 0 !important;
+	margin: 0 !important;
+}
+.yui-gc .smallInsideHeading {
+	height: 100px; 
+	width: 0;
+	padding: 0 !important;
+	margin: 0 !important;
+}
+.yui-ge #headingContainer {
+}
+.yui-ge .largeInsideHeading {
+	height: 300px;
+	padding: 0 !important;
+	margin: 0 !important;
+}
+.yui-ge .smallInsideHeading {
+	height: 100px; 
+	padding: 0 !important;
+	margin: 0 !important;
+}
+.yui-gf #headingContainer {
+}
+.yui-gf .largeInsideHeading {
+	height: 300px;
+	overflow: hidden;
+	padding: 0 !important;
+	margin: 0 !important;
+	float:none;
+}
+.yui-gf .smallInsideHeading {
+	height: 300px;
+	overflow: hidden;
+	padding: 0 !important;
+	margin: 0 !important;
+}
+.yui-gc #headingContainer.wide, .yui-ge #headingContainer.wide, .yui-gf #headingContainer.wide {
+	height: 380px;
+}
+#heading {
+	margin: 0;
+	padding: 0;
+	background-color: #FFFFFF;
+}
+.yui-ga #heading {
+	width: 941px;
+	height: 418px;
+}
+.yui-gc #heading {
+	width: 630px;
+	height: 300px;
+}
+.yui-ge #heading {
+	width: 709px;
+	height: 300px;
+}
+.yui-gf #heading {
+	width: 709px;
+	height: 300px;
+}
+.yui-ga #mastheadContent {
+	width: 941px;
+	height: 418px;
+}
+.yui-gc #mastheadContent {
+	width: 630px;
+	height: 300px;
+}
+.yui-ge #mastheadContent {
+	width: 709px;
+	height: 300px;
+}
+.yui-gf #mastheadContent {
+	width: 709px;
+	height: 300px;
+}
+#heading .inner-border {
+}
+#mainArea {
+	clear: both;
+	width: 960px;
+	float: left;
+	margin: 0;
+	padding: 24px 0 0 0;
+	background: #FFFFFF no-repeat;
+}
+#mainLeftArea {
+	width:960px;
+	float:left;
+}
+#mainLeftAreaTop {
+	width:960px;
+	float:left;
+}
+#mainRightArea {
+	float:left;
+	width: 167px;
+}
+#mainLeftRightArea {
+	float:left;
+	width: 225px;
+	margin: 0 0 0 20px;
+}
+#mainMiddleArea {
+	float:right;
+	width: 660px;
+	margin: 0 20px 20px 0;
+}
+#content {
+	float:left;
+	width: 634px;
+	margin: 0;
+	padding: 12px;
+}
+.rightWing {
+	float: left; 
+	width: 690px;
+}
+.rightWing.wide {
+	width: 980px;
+}
+.rightWing.wide #webContentMainArea {
+	width: 920px;
+}
+.rightWing.wide #content {
+	width: 894px;
+}
+#adSpace {
+	width: 651px;
+	margin: 10px 0 0 20px;
+	padding: 0;
+	text-align: left;
+	float: left;
+	clear: both;
+}
+
+.loginTable td {
+	padding: 8px;
+}
+

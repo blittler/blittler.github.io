@@ -1,0 +1,142 @@
+/* Hill Custom CSS v1.2 */
+/* DOCUMENT INFORMATION
+	- Document: CSS for Lincoln Park CLUB template (Hill COuntry INN)
+	- Version: 1.2
+	- Client: Internal Document
+	- Author: Q. Pittmon
+	- Revised: 11/25/2013
+	Revision History
+	v 1.2 - 11/25/2013
+	- Updates and Bug Fixes
+*/
+/*======================
+ * OVERALL PAGE SETTINGS
+ =======================*/
+#page {
+	max-width: 1000px;
+}
+#screen {
+	width: 100% !important;
+	/* padding: 0; */
+	/* margin: 0 auto !important; */
+}
+.yui-ga {
+  clear: both;
+  float: left;
+  width: 98%;
+}
+#heading {
+  width: 1000px !important;
+}
+div.yui-u > div {
+  float: none !important;
+}
+/*=========================
+ * HEADER
+ ==========================*/
+#mastheadLogo {
+  bottom: 35px !important;
+  height: 63px !important;
+  width: 350px !important;
+}
+#masthead > div.header-bg {
+  left: 0px !important;
+  width: 100% !important;
+}
+#masthead div.nav-holder {
+  font-size: 14px !important;
+  color: #FFFFFF;
+}
+#mastheadMiddle {
+  bottom: 24px !important;
+  height: 89px !important;
+  width: 515px !important;
+}
+#mastheadMiddle .cnt {
+  height: 89px !important;
+  width: 515px !important;
+}
+/*=======================
+ * NAVIGATION
+ ========================*/
+#pageNav.border {
+  width: 99.8%;
+}
+#pageNav {
+  background: none no-repeat scroll left top #FFFFFF;
+  top: 103px;
+  right: 0px !important;
+}
+#mainNavMenu .yuimenu .bd, #mainNavMenu .yuimenu .hd, #mainNavMenu .yuimenu .ft {
+  background-color: #545B6D;
+  border: 1px solid rgba(0, 0, 0, 0);
+  float: right;
+  margin-right: 5px;
+  min-width: 195px;
+  opacity: 0.91;
+  padding: 8px 9px;
+}
+#mainNavMenu .yuimenuitem .yuimenubaritemlabel {
+  color: #FFFFFF;
+}
+/*========================
+ * BODY
+ ==========================*/
+.yui-ga #heading {
+  height: 310px !important;
+}
+#headingContainer {
+  height: 310px !important;
+}
+.rezembed {
+  text-align: center !important;
+}
+/*========================
+ * PROPERTY DETAIL PAGE
+ =========================*/
+#destinationR1S1 {
+  display: none !important;
+  float: left;
+}
+/*=========================
+ * FOOTER
+ ==========================*/
+#disclaimerWide {
+ margin: 0 2.08333%;
+ width: 60%;
+ }
+ #disclaimer {
+  margin: 0 0 12px 21px !important;
+  font-size: 12px !important;
+}
+#footerholder {
+	font-size: 12px !important;
+}
+ #footerHolderWide div.content {
+  width: 1000px;
+}
+#copyright {
+  margin: 0 -2%;
+  right: 3.4%;
+  bottom: 12px;
+}
+#footerHolder .footer_copyright {
+  font-size: 12px; /*v1.1 10/21/2013*/
+}
+#footerHolderWide {
+  text-align: left;
+}
+#footerSites, #footer {
+  float: left;
+  height: 70px;
+  line-height: 17px;
+  width: 700px;
+} /*v1.1 10/21/2013*/
+#footerHolder div.footer-bg {
+  left: 0px !important;
+  width: 100% !important;
+}
+#footerHolder div.content {
+  padding: 10px 0 16px !important;
+}
+
