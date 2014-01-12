@@ -138,7 +138,7 @@ strong {
 	z-index:10;
 }
 body, html {
-	background: url(bbc-5-stripes.jpg) repeat transparent !important;	
+	background: url('bbc-5-stripes.jpg') repeat transparent !important;	
 }
 a, a:visited {
 	color: #006699;
